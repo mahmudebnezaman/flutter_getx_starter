@@ -29,3 +29,6 @@ apply plugin: 'com.google.gms.google-services' Sync your project:
 
 After making changes to the build.gradle files, sync your project with the Gradle files to ensure the dependencies are downloaded and applied. Test the Firebase integration:
 You can now start using Firebase in your Android app. You can add Firebase features such as Firebase Authentication, Realtime Database, Firestore, Cloud Messaging, etc., based on your requirements. Remember to follow any additional setup steps specific to the Firebase features you want to use in your app. The Firebase documentation (https://firebase.google.com/docs) provides detailed guides and code samples for each Firebase feature.
+
+#Getting SHA1: On Android folder command line (.\gradlew signingReport)
+
